@@ -1,0 +1,67 @@
+body{
+    background-image: url(img/background-acdc.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    margin-top: 0px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+h1{
+    color: rgb(201, 4, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    width: 70%;
+    margin: 0px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.center{
+    flex: 0 1 auto;
+    width: 50%;
+}
+
+.botaoSurpresa{
+    background-color: black;
+    border: none;
+    color: #D90D1E;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+
+.botaoSurpresa:hover {
+    background-color: #0f0f0f;
+    color: #c70011;
+}
