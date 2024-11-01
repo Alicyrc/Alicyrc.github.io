@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-um: rgb(201, 4, 4);
+    --cor-dois: rgb(255,255,255);
+    --cor-tres: rgb(4, 4, 4);
+    --cor-quatro: rgb(181,46,43);
+    --cor-cinco: rgb(70,67,63);
+    --fonte_titulo: "Montserrat", sans-serif;
+}
+body{
+    background-image: url(img/background-acdc.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: var(--cor-um);
+    font-family: var(--fonte_titulo);
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: var(--fonte_titulo);
+}
+
+p{
+    font-family: var(--fonte_titulo);
+    text-align: justify;
+}
+
+
+header{
+    margin-top: 0px;
+    padding: 7px 0;
+    text-align: center;
+    padding-top: 10px;
+    background-color: var(--cor-tres);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 0px;
+    padding: 4px 0;
+    text-align: center;
+    background-color: var(--cor-tres);
+    font-size: 10px;
+
+}
+
+
+.principal{
+    width: 70%;
+    margin: 0px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.center{
+    flex: 0 1 auto;
+    width: 50%;
+    
+}
+
+.botaoSurpresa{
+    background-color: black;
+    border: none;
+    color: #D90D1E;
+    font-size: 20px;
+    font-family: var(--fonte_titulo);
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 40px;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+
+.botaoSurpresa:hover {
+    background-color: var(--cor-um);
+    color: var(--cor-tres);
+    transform: scale(0.9);
+    transition: ease-out 0.2s;
+}
+
+.membro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    margin-top: -30px;
+    padding: 30px;
+    border: 8px solid transparent; 
+    border-radius: 10px;
+}
+
+.senha{
+    flex-direction: row;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
+    color: #D90D1E;
+    font-size: 20px;
+    font-family: var(--fonte_titulo);
+}
+
+.botao-pix{
+    color: #D90D1E;
+    font-size: 20px;
+    font-family: var(--fonte_titulo);
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: #D90D1E;
+    padding: 10px 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.botao-pix:hover{
+    transform: scale(0.9);
+    transition: ease-out 0.2s;
+}
+
+.botao-cancelar{
+    color: #D90D1E;
+    font-size: 20px;
+    font-family: var(--fonte_titulo);
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: #D90D1E;
+    padding: 10px 20px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.botao-cancelar:hover{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.botoes{
+    padding-top: 2px;
+}
+.secao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.h2_m{
+    color: var(--cor-tres);
+}
+
+.texto-m{
+    border-radius: 10px;
+    padding: 2%;
+    border-color: #c70011;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    height: 20px; 
+    font-size: 16px;
+    font-family: var(--fonte_titulo);
+}
+
+.final{
+    font-size: 20px;
+}
+
+.botao-mode{
+    background-color: transparent;
+    border: none;
+}
+
+.image-header{
+    width: 100px;
+}
+
+.image-header:hover{
+    content: url('img/Abobora_!.png');
+}
+
+body.dark-mode{
+    background-image: url(img/background-acdc-ha.png);
+    margin: 0;
+    padding: 0;
+}
+
+body.dark-mode h1{
+    color: #F75F1C;
+    
+}
+
+body.dark-mode .principal{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));    
+}
+
+body.dark-mode h2{
+    color: #85E21F;
+}
+
+body.dark-mode p{
+    color: #881EE4;
+}
+
+header.dark-mode, footer.dark-mode {
+    background-color: var(--cor-tres);
+   color:#FF9A00 ;
+}
+
+header.dark-mode{
+    background-image: url(img/gifss.gif);
+    background-size: 125px;
+}
+
+.center.dark-mode{
+    color: #FF9A00;
+}
+
+.principal.dark-mode {
+    background-color: var(--cor-dois);
+    color: #FF9A00;
+}
+
+body.dark-mode .botaoSurpresa{
+    background-color: #ee5311;
+    color: #0f0f0f;
+    border: none;
+}
+
+body.dark-mode .botao-pix{
+    background-color: #881EE4;
+    color: var(--cor-dois);
+    border: none;
+}
+
+body.dark-mode .botao-cancelar{
+    background-color: #881EE4;
+    color: var(--cor-dois);
+    border: none;
+}
+
+body.dark-mode .membro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));    
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon.dark-mode{
+    background-image: url(img/logo-ha.png);
+}
+
+body.dark-mode .pp{
+    color: var(--cor-dois);
+}
+
+body.dark-mode .texto-m{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-color: var(--cor-dois);
+}

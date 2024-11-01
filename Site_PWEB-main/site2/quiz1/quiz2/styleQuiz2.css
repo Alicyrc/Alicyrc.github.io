@@ -1,0 +1,60 @@
+.container {
+    width: 100vw;
+    height: 200vh;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border-radius: 30px;
+    font-family: 'copperplate';
+    width: 1000px;
+    height: 1200px;
+    background: #000000;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 300%;
+    margin-left: 10px;
+}
+
+.btns {
+    font-size: 200%;
+    font-weight: bolder;
+    color: rgb(30, 255, 0);
+    background-color: #000000;
+    margin: 35px;
+}
+
+#bt2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#bt3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#bt4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#img1 {
+    width: 200px;
+    padding-right: 20px;
+}
+
+#img2 {
+    width: 353px;
+    padding-right: 20px;
+}
+
+#img3 {
+    width: 225px;
+}
